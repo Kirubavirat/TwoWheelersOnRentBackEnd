@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.bikerent.AdminModuleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.417 s <<< FAILURE! - in com.bikerent.AdminModuleApplicationTests
+getSinglebike  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.bikerent.AdminModuleApplicationTests.getSinglebike(AdminModuleApplicationTests.java:53)
+
+testUpdate  Time elapsed: 0.018 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.bikerent.AdminModuleApplicationTests.testUpdate(AdminModuleApplicationTests.java:59)
+
+testDelete  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.bikerent.entities.Bike entity with id 14 exists!
+	at com.bikerent.AdminModuleApplicationTests.testDelete(AdminModuleApplicationTests.java:67)
+
